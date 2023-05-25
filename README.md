@@ -14,3 +14,52 @@ Naviate to [Wiresharks Website](https://www.wireshark.org) and click the "get st
 
 
 
+### What can Wireshark do?
+
+Wireshark can do many things. It is a very versitile tool, here are some of the things it can do:
+1. Inspection of hundreds of protocols
+2. Live packet capture and offline analysis
+3. CLI support
+4. complex filtering
+5. VoIP analysis
+6. analysis of different capture file formats
+7. Decryption support
+8. Coloring
+
+and many more...
+
+<br>
+
+## Wireshark the Basics.
+
+NCL has a category called Network Traffic Analysis. This category can be daunting to new-comers that have never used wireshark or any similar tools. There can be alot of information ranging from a few hundred to a few tens of thousands of packts. Overcoming a NTA challenge is recognizing what its asking and figuring out the best way to tackle what its asking. 
+
+
+There is a few ways to think before even looking at the data inside the packets. After reading the challenge questions and getting an idea of what the challenge is about, I like to follow this process.
+
+1. Figure out how many packets are captured. This can save you hours, typically NCL follows the pattern of 2 types of pcaps. very large pcaps, and small pcaps. A very large pcap is almost a dead giveaway that you will find the answers in the statistics or extra analysis tools that wireshark provides. With small pcap challenges you will most likely have to start digging through packets to scrape information together and hopefully come across what you are looking for.  
+
+2. Uing information from the challenge, I like to scroll through the packets and see what protocols im dealing with. Just to see if I can find anything on the surface without getting too deep. If you identify any protocols that standout or anything "fishy" packet wise its probably going to be the best place to start your analysis. 
+
+3. After this point, my next steps get tailored to the challenge at hand. Dont be afraid to toy around and experiment!
+
+and if I have no idea what to do or what im doing I start googling. 
+
+
+<br>
+
+### Wireshak GUI
+
+Now that you have a general idea on how to give the business to some packets, lets talk GUI.
+
+When you first open Wireshark you are met with this:
+
+![image](https://github.com/JoshuaHartz/Intro-to-Wireshark/assets/102620766/6be91ac8-376d-4c32-8a37-33ab106c050e)
+
+This is the main menu. It will show you recently opened pcaps and your availiable active connections you can start capturing on. Under that there are also extra resources given to you by Wireshark and collaborators. 
+
+Im going to now open one of my recent pcaps and 
+
+
+
+
