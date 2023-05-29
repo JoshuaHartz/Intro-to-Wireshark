@@ -58,7 +58,6 @@ When you first open Wireshark you are met with this:
 
 This is the main menu. It will show you recently opened pcaps and your availiable active connections you can start capturing on. Under that there are also extra resources given to you by Wireshark and collaborators. 
 
-Im going to now open one of my recent pcaps and 
 
 
 
