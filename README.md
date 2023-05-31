@@ -62,6 +62,8 @@ Here I made a quick tutorial of what you can do in wireshark using a past challe
 
 [View the video](https://drive.google.com/file/d/17ShzioxyoGTobRnfBcyxO04YCm2mXzjh/view?usp=share_link)
 
+I also strongly encourage the use of any external online resources, cyberskyline makes good videos as well on their own gym challenges. That brings me to my next reccomendation. When the gymnasium goes live, run through the NTA section to see how they like to use Wireshark and other tools. 
+
 
 
 
