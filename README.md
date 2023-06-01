@@ -62,6 +62,22 @@ This is the main menu. It will show you recently opened pcaps and your availiabl
 
 1. The statistics tab, more often than not you will find the answer you are looking for in the statistics tab, and if not you can find something that will help you get closer to the answer. The main features that I always use in the statistics tab are; Capture file properties, conversations, and endpoints. Capture file properties tells you basic information about the pcap. Conversations gies you detailed information about the types of conversations that happened and lets you choose what protocols to focus in on, very useful for analyzing captures that may contain a port scan.  Endpoints is similar to conversations but it highlights each of the destinations.
 
+2. The Telephony tab is good for if you suspect any VOIP or telephone calls happening. There are alot of protocols it covers but Its rare you will see them used. Since they are all sorted by protocol, if you see a protocol in the list that is being used, try to view it in telephony. Worst thing that could happen is that wireshark crashes on you. 
+
+3. The Wireless tab, very useful for simple wireless questions like finding BSSID's and certain information about wireless networks and access points. Also for anything about bluetooth this is your tab. 
+
+4. The Analyze tab. This tab is good for follwing certain conversation steams to see if there is any desireable info in the packets or special information you may need. You can also view some example filters and use them, I will be doing the next section here on filters. 
+
+<br>
+
+### Filters
+
+Filters can be very powerful if used correctly. You can view some examples in the Analyze tab but sometimes crafting your own filter for what you need is the best way to go. When I say crafting your own I really mean asking chat GPT to make a filter for you, it saves time. Be sure to verify that it works with wiresharks built in autofill function. For example I had chat GPT make most of this filter (which I edited to work with modern wireshark filters)
+```
+(tcp.flags.fin == 1) && (tcp.flags.push == 1) && (tcp.flags.urg == 1)
+```
+The filter system is fairly similar to object oriented programming imagine its like a very scuffed python IF statment. 
+
 
 
 Here I made a quick tutorial of what you can do in wireshark using a past challenge I got right. Its not a complete wireshark rundown, that would take forever to do, but its a taste to what wireshark can do.
