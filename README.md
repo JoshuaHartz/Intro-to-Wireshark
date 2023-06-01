@@ -80,6 +80,8 @@ This filter for example, finds all the TCP packets that have the FIN, PSH, URG f
 
 The filter system is fairly similar to object oriented programming imagine its like a very scuffed python IF statment. 
 
+[Here](https://www.stationx.net/wireshark-cheat-sheet/) is a cheat sheet.
+
 
 
 Here I made a quick tutorial of what you can do in wireshark using a past challenge I got right. Its not a complete wireshark rundown, that would take forever to do, but its a taste to what wireshark can do.
